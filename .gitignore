@@ -1,0 +1,8 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+Projects/Blog Theme/node_modules/
+Projects/Looplab Theme/node_modules/
+Projects/Glozzom Theme/node_modules/
+Projects/Mizuxe Theme/node_modules/
+Projects/Portfolio Theme/node_modules/
