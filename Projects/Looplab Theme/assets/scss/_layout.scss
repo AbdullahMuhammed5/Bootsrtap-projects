@@ -1,0 +1,69 @@
+// Layout Style
+body{
+	background: $bg-color;
+	color: $font-color;
+}
+
+.navbar{
+	border-bottom: 3px $primary-color solid;
+	opacity: 0.8;
+	.nav-link{
+		color: white !important;
+	}
+}
+
+#home-section{
+	background: url(../img/carrying-casual-cheerful-1162964.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 700px;
+
+	.dark-overlay{
+		background-color: $dark-overlay;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		min-height: 700px; 
+	}
+	.home-inner{
+		padding-top: 150px;
+	}
+	.fa-check{
+		padding: 5px;
+		color: $primary-color;
+		background: #fff;
+		border-radius: 5px;
+		font-size: $icon-size;
+	}
+}
+
+#explore-section{
+	.fa-check{
+		padding: 5px;
+		color: #fff;
+		background: #333;
+		border-radius: 5px;
+		font-size: $icon-size;
+	}
+}
+
+#create-section{
+	.fa-check{
+		padding: 5px;
+		color: $primary-color;
+		background: #fff;
+		border-radius: 5px;
+		font-size: $icon-size;
+	}
+}
+
+#share-section{
+	.fa-check{
+		padding: 5px;
+		color: #fff;
+		background: #333;
+		border-radius: 5px;
+		font-size: $icon-size;
+	}
+}
